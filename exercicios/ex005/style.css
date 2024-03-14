@@ -1,0 +1,90 @@
+@charset "UTF-8"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@font-face {
+    font-family: 'fontOne';
+    src: url(font/ThaleahFat.ttf) format('truetype');
+    font-weight: normal;
+
+    /*
+        Tipos de Format(): 
+            - opentype (otf)
+            - truetype (ttf)
+            - embedde-opentype
+            - turetype-aat
+            - svg
+    */
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(45deg, rgb(39, 33, 128), rgb(61, 58, 155));
+    font-family: Arial, Helvetica, sans-serif;
+    height: 800px;
+    
+}
+
+main {
+    box-shadow: 5px 5px 10px rgba(2, 3, 19, 0.61);
+    border-radius: 10px;
+    padding: 15px;
+    background-color: white;
+    margin: auto;
+    width: 600px;
+
+}
+
+h1 {
+    font-family: 'fontOne';
+    font-size: 3em;
+    text-align: center;
+    font-weight: normal;
+    color: rgb(157, 32, 182);
+    text-shadow: 5px 5px 10px rgba(126, 26, 146, 0.425);
+}
+/* 
+    em HTML é id = # em css
+    em HTML é class = . em css
+*/
+h1#principal {
+    font-family: 'fontOne';
+    font-size: 3em;
+    text-align: center;
+    color: rgb(157, 32, 182);
+    text-shadow: 5px 5px 10px rgba(126, 26, 146, 0.425);
+    
+}
+
+h2 {
+    font-family: 'Kaushan Script', serif;
+    text-align: left;
+    text-indent: 10px;
+    
+}
+
+.basico {
+    color: rgb(210, 6, 236);
+}
+
+.corbasica {
+    color: rgb(157, 32, 182);
+    text-shadow: 5px 5px 10px rgba(126, 26, 146, 0.425);
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+p#test {
+    padding: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, rgb(64, 54, 201), rgb(77, 74, 184));
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.589);
+    color: white;
+    text-align: justify;
+}

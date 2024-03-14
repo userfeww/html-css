@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* 
+    Medidas Absolutas
+    cm, mm, in (polegada), px, pt, pc (paica sla)
+
+    Medidas Relativas
+    em (medida relativa ao tamanho da fonte, letra maiscula M), ex (altura x da fonte), rem, vw (largura da View Port, porcentagem), %
+
+    16px geralmente = 1em
+
+    recoemndação, use px ou em
+    */
+    font-size: 1em;
+}
+
+h1 {
+    /* Shorthand font
+    
+    font-style > font-weight > font-size > font-family
+    
+    */
+
+    font: italic bolder 3em Arial, sans-serif;
+}

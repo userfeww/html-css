@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.especial::after {
+    content: '🕸️';
+}
+.especial::before {
+    content: '🕸️';
+}
+
+a:active {
+    color: red;
+}
+
+a::after { /* Pseudo-Classe = : Pseudo-Elementos = ::*/
+    content: '[link]'; /* Depois de todo o conteudo, está avisando ao usuiario que é um Link */
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+
+}
