@@ -138,7 +138,8 @@ section#mascotenovo > h2 {
 }
 
 picture {
-    width: auto;
+    width: 90%;
+    height: 90%;
 }
 
 section#mascotenovo > p > a {
