@@ -137,9 +137,9 @@ section#mascotenovo > h2 {
     border-radius: 10px;
 }
 
-source {
+picture {
     width: auto;
-} /*  */
+}
 
 section#mascotenovo > p > a {
     text-decoration: none;
