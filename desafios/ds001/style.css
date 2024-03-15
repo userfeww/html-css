@@ -25,6 +25,7 @@ body {
 header {
     background-image: linear-gradient(to top, #1a5c38, #3BD57F );
     padding: 20px;
+    margin: 0;
     text-align: center;
 }
 
