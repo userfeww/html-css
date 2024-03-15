@@ -26,7 +26,6 @@ body {
 header {
     background-image: linear-gradient(to top, #1a5c38, #3BD57F );
     padding: 20px;
-    width: auto;
     text-align: center;
 }
 
@@ -137,14 +136,6 @@ section#mascotenovo > h2 {
     padding-left: 10px;
     background-image: linear-gradient(to right, #3BD57F, transparent);
     border-radius: 10px;
-}
-
-picture > source {
-    text-align: center;
-}
-
-article.alinhar {
-    text-align: center;
 }
 
 section#mascotenovo > p > a {
