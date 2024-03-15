@@ -138,7 +138,7 @@ section#mascotenovo > h2 {
 }
 
 picture > source {
-    margin: auto;
+    margin-left: -20px;
 }
 
 section#mascotenovo > p > a {
