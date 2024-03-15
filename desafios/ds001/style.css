@@ -137,8 +137,8 @@ section#mascotenovo > h2 {
     border-radius: 10px;
 }
 
-article#class {
-    padding: auto;
+article.alinhar {
+    padding: 0px auto;
 }
 
 section#mascotenovo > p > a {
