@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
@@ -13,6 +15,10 @@
     --font003: "Sriracha", cursive;
 }
 
+html, body {
+    min-height: 100vh;
+}
+
 body {
     font-family: var(--font002);
 }
@@ -23,63 +29,42 @@ header {
     text-align: center;
 }
 
+header > h1 {
+    font-family: var(--font001);
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 10vw;
+    padding-top: 3.5rem;
+}
+
 header > p {
     font-family: var(--font002);
     font-size: 1em;
     padding-bottom: 3rem;
 }
 
-h1 {
-    font-family: var(--font001);
-    font-weight: bold;
-    font-size: 5em;
-    padding-top: 3.5rem;
-}
-
-section#firstimg {
-    padding: 2em;
-    position: relative;
+section {
+    font-family: var(--font003);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 5vh;
+    font-size: 3.5vw;
 }
 
 section#firstimg > p {
-    position: absolute;
-
-    left: auto;
-    top: 50%;
-
-    transform: translate(0, -50%);
-
-    padding: 5px;
-}
-
-section#secondimg {
-    padding: 2em;
-    position: relative;
-}
+    display: inline-block;
+    background-color: #00000060;
+    color: #fff;
+} 
 
 section#secondimg > p {
-    position: absolute;
+    display: inline-block;
+    background-color: #00000060;
+    color: #fff;
+} 
 
-    left: auto;
-    top: 50%;
-
-    transform: translate(0, -50%);
-
-    padding: 5px;
-}
-
-section.padrao {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 5vh;
-}
-
-section.padrao > p {
-    width: auto;
-    padding-top: 5vh;
-}
-
-a {
+header a, footer a {
     text-decoration: none;
     color: #fff;
 }
@@ -88,43 +73,26 @@ a:hover {
     text-decoration: underline;
 }
 
-p {
-    font-family: var(--font003);
-    font-size: 2em;
-}
-
 footer {
     background-color: #000;
+    font-family: var(--font002);
     text-align: center;
     color: #fff;
+    font-size: 1.5vw;
 }
 
 footer > p {
-    font-family: var(--font002);
     padding: 5px;
-    font-size: 1em;
 }
 
 /* ID'S */
 
 #firstimg {
-    height: 75vh;
     background: #008000 url(imagens/background001.jpg) center center / cover no-repeat fixed;
     box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.397);
 }
 
 #secondimg {
-    height: 75vh;
     background: #008000 url(imagens/background002.jpg) center center / cover no-repeat fixed;
     box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.397);
 }
-
-/* CLASS'S */
-
-.diferente {
-    background-color: #00000060;
-    color: #fff;
-    width: auto;
-}
-
-/* Atoa */
