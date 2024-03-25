@@ -52,14 +52,22 @@ section {
     font-size: 3.5vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section#firstimg > p {
     display: inline-block;
+    padding: 1em;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.356);
     background-color: #00000060;
     color: #fff;
 } 
 
 section#secondimg > p {
     display: inline-block;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.356);
+    padding: 1em;
     background-color: #00000060;
     color: #fff;
 } 
@@ -88,11 +96,11 @@ footer > p {
 /* ID'S */
 
 #firstimg {
-    background: #008000 url(imagens/background001.jpg) center center / cover no-repeat fixed;
-    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.397);
+    background: #008000 url(imagens/background001.jpg) right center / cover no-repeat fixed;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.397);
 }
 
 #secondimg {
-    background: #008000 url(imagens/background002.jpg) center center / cover no-repeat fixed;
-    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.397);
+    background: #008000 url(imagens/background002.jpg) right center / cover no-repeat fixed;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.541);
 }
