@@ -27,7 +27,7 @@ header {
     background-color: #000;
     color: #fff;
     text-align: center;
-    padding-top: 3.5em;
+    padding-top: 3.5em; /* vh = view height*/
 
 }
 
@@ -38,9 +38,9 @@ header > h1 {
     -webkit-text-fill-color: transparent;
     
     font-family: var(--font001);
-    font-variant: small-caps;
+    font-variant: small-caps; /* Continua com as letras maicuslas porém, as primeiras letras são maiores*/
     font-weight: bold;
-    font-size: 10vw;
+    font-size: 10vw; /* vh = weight*/
     
 }
 
@@ -49,6 +49,12 @@ header > p {
     font-size: 1em;
     padding-bottom: 3rem;
 }
+
+header a, footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
 
 section {
     font-family: var(--font003);
@@ -78,11 +84,6 @@ section#secondimg > p {
     background-color: #00000060;
     color: #fff;
 } 
-
-header a, footer a {
-    text-decoration: none;
-    color: #fff;
-}
 
 a:hover {
     text-decoration: underline;
